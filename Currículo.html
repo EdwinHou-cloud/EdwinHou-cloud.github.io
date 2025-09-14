@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Currículum - Miguel Arosemena</title>
+</head>
+<body>
+    <!-- Cabecera de la página -->
+    <header>
+        <h1>Datos Personales</h1>
+        <!-- Navegación principal -->
+        <nav>
+            <a href="index.html">Inicio</a> |
+            <a href="MiBiografia_EHou.html">Edwin Hou</a> |
+            <a href="MiBiografia_MArosemena.html">Miguel Arosemena</a> |
+            <a href="Currículo.html">Datos Personales</a> |
+            <a href="tema.html">Tema libre</a> 
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Formulario de datos generales -->
+        <h2>Datos Generales</h2>
+        <form>
+            <!-- Seccion de informacion personal -->
+            <fieldset>
+                <legend>Información Personal</legend>
+                <!-- Campo para el nombre -->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                <!-- Campo para el apellido -->                
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required><br><br>
+                <!-- Campo para la cedula --> 
+                <label for="cedula">Cédula:</label>
+                <input type="text" id="cedula" name="cedula" required><br><br>
+                <!-- Campo para el telefono --> 
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono"><br><br>
+                <!-- Campo para la fecha de nacimiento --> 
+                <label for="nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="nacimiento" name="nacimiento"><br><br>
+                <!-- Campo para la seleccion de sexo --> 
+                <label>Sexo:</label>
+                <input type="radio" id="masculino" name="sexo" value="masculino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="femenino" name="sexo" value="femenino">
+                <label for="femenino">Femenino</label><br><br>
+            </fieldset>
+            <!-- Seccion de direccion-->
+            <fieldset>
+                <legend>Dirección</legend>
+                <!-- Campo para la direccion -->
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion"><br><br>
+                <!-- Campo para el corregimiento -->
+                <label for="corregimiento">Corregimiento:</label>
+                <input type="text" id="corregimiento" name="corregimiento"><br><br>
+                <!-- Campo para la provincia -->
+                <label for="provincia">Provincia:</label>
+                <select id="provincia" name="provincia">
+                    <option value="">Seleccione una provincia</option>
+                    <option value="bocas">Bocas del Toro</option>
+                    <option value="cocle">Coclés</option>
+                    <option value="colon">Colón</option>
+                    <option value="chiriqui">Chiriquí</option>
+                    <option value="darien">Darién</option>
+                    <option value="herrera">Herrera</option>
+                    <option value="los-santos">Los Santos</option>
+                    <option value="panama">Panamá</option>
+                    <option value="veraguas">Veraguas</option>
+                    <option value="gnobe">Gnobe Buglé</option>
+                    <option value="embera">Emberá</option>
+                    <option value="nasso">Nasso</option>
+                </select><br><br>
+                <!-- Campo para el pais -->
+                <label for="pais">País:</label>
+                <input type="text" id="pais" name="pais" value="Panamá" readonly><br><br>
+            </fieldset>
+            
+            <!-- Boton para enviar o limpiar el formulario -->
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+    </main>
+    
+    <!-- Pie de pagina -->
+    <footer>
+        <p>Copyright &copy; 2025 Miguel Arosemena, Edwin Hou - Ingeniería Web</p>
+    </footer>
+</body>
+</html>

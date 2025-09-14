@@ -4,130 +4,243 @@
     <meta charset="UTF-8">
     <title>Mi Biografía - Miguel Arosemena</title>
 </head>
-<body> 
-    <!-- Nombre -->
-    <h1>Miguel Arosemena</h1>
-    <!-- Parrafos sobre mi -->
-    <p>Mi nombre es Miguel Antonio Arosemena Delgado. Tengo 20 años y actualmente me encuentro estudiando en la Universidad Tecnológica de Panamá.</p>
-    <p>Formo parte de la facultad de sistemas de la UTP, en donde estoy estudiando la carrera de Ingeniería de Software cursando tercer año. La elegí principalmente porque me interesa bastante dos cosas fundamentales de esta: la creación de apps y las matemáticas.</p>
-    <!-- Imagen de mi -->
-    <img src="imagenes/miguel.jpg" alt="Foto de Miguel Arosemena" width="200">
-    <!-- Sitio web favorito -->
-    <p>Visita mi sitio web favorito: <a href="https://www.manutd.com/"><font color="blue">https://www.manutd.com/</font></a></p>
+<body>
+    <!-- Cabecera de la página -->
+    <header>
+        <h1>Miguel Arosemena</h1>
+
+        <!-- Navegación principal -->
+        <nav>
+            <a href="index.html">Inicio</a> | 
+            <a href="#sobre-mi">Sobre mí</a> |
+            <a href="#libros">Mis libros favoritos</a> |
+            <a href="#peliculas">Mis películas favoritas</a> |
+            <a href="#canciones">Canciones Favoritas</a> |
+            <a href="#Multimedia">Multimedia</a> |
+            <a href="Currículo.html">Datos Personales</a> |
+            <a href="tema.html">Tema libre</a> 
+
+        </nav>
+    </header>
     
-    <!-- Lista ordenada de mis libros favoritos -->
-    <h2>Mis libros favoritos</h2>
-    <ol>
-        <li>Crimen y Castigo</li>
-        <li>Viento y Verdad</li>
-        <li>Metamorfosis</li>
-        <li>El Aliento de los Dioses</li>
-        <li>El hombre invisible</li>
-    </ol>
-    
-    <!-- Lista no ordenada de mis pasatiempos -->
-    <h2>Mis pasatiempos</h2>
-    <ul>
-        <li>Jugar Ajedrez</li>
-        <li>Ver series</li>
-        <li>Leer Libros</li>
-        <li>Entrenar</li>
-        <li>Jugar fútbol</li>
-    </ul>
-    
-    <!-- Lista con descripcion de mis cualidades --> 
-    <h2>Mis cualidades</h2>
-    <dl>
-        <dt><b>Amable</b></dt>
-        <dd>Me considero una persona cortés con una diposición generosa con aquellos que considero mis amigos.</dd>
+    <!-- Contenido principal -->
+    <main>
+        <!-- Sección sobre mí -->
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            
+            <p>Mi nombre es Miguel Antonio Arosemena Delgado. Tengo 20 años y actualmente me encuentro estudiando en la Universidad Tecnológica de Panamá.</p>
+            <p>Formo parte de la facultad de sistemas de la UTP, en donde estoy estudiando la carrera de Ingeniería de Software cursando tercer año. La elegí principalmente porque me interesa bastante dos cosas fundamentales de esta: la creación de apps y las matemáticas.</p>
+            <img src="imagenes/miguel.jpg" alt="Foto de Miguel Arosemena" width="200">
+
+            <!-- Sitio web favorito -->
+            <p>Visita mi sitio web favorito: <a href="https://www.manutd.com/">https://www.manutd.com/</a></p>
+
+            <!-- Lista de cualidades -->
+            <h3>Mis cualidades</h3>
+            <dl>
+                <dt><b>Amable</b></dt>
+                <dd>Me considero una persona cortés con una disposición generosa con aquellos que considero mis amigos.</dd>
+                
+                <dt><b>Sociable</b></dt>
+                <dd>Se me hace sencillo manejar ambientes sociables, hablar con personas que no conozco.</dd>
+                
+                <dt><b>Paciente</b></dt>
+                <dd>Soy alguien que tolera con calma y serenidad, sin alterarme.</dd>
+                
+                <dt><b>Ingenioso</b></dt>
+                <dd>Demuestro disposición a aceptar una gama de posibilidades, oportunidades, pensamientos, puntos de vista, sugerencias y experiencias fuera de tu repertorio habitual.</dd>
+                
+                <dt><b>Perspicaz</b></dt>
+                <dd>Presto mucha atención a mis entornos, comportamientos de otras personas y soy capaz de discernir situaciones al estar ahí.</dd>
+            </dl>
+            
+            <!-- Lista de pasatiempos -->
+            <h3>Mis pasatiempos</h3>
+            <ul>
+                <li>Jugar Ajedrez</li>
+                <li>Ver series</li>
+                <li>Leer Libros</li>
+                <li>Entrenar</li>
+                <li>Jugar fútbol</li>
+            </ul>
+        </section>
         
-        <dt><b>Sociable</b></dt>
-        <dd>Se me hace sencillo manejar ambientes sociables, hablar con personas que no conozco.</dd>
+        <!-- Sección de libros favoritos -->
+        <section id="libros">
+            <h2>Mis libros favoritos</h2>
+            
+            <article>
+                <h3>Crimen y Castigo</h3>
+                <p><strong>Autor:</strong> Fiódor Dostoyevski</p>
+                <p><strong>Resumen:</strong> Novela psicológica que sigue la historia de Rodión Raskólnikov, un estudiante que comete un asesinato y debe enfrentar las consecuencias morales y psicológicas de sus acciones.</p>
+                <img src="imagenes/crimen.jpg" alt="Portada de Crimen y Castigo" width="150">
+            </article>
+            
+            <article>
+                <h3>Viento y Verdad</h3>
+                <p><strong>Autor:</strong> Brandon Sanderson</p>
+                <p><strong>Resumen:</strong> Cuarta entrega de la saga "El Archivo de las Tormentas", donde Kaladin y Shallan continúan sus aventuras en un mundo de tormentas mágicas y conflictos políticos.</p>
+                <img src="imagenes/viento.jpg" alt="Portada de Viento y Verdad" width="150">
+            </article>
+            
+            <article>
+                <h3>Metamorfosis</h3>
+                <p><strong>Autor:</strong> Franz Kafka</p>
+                <p><strong>Resumen:</strong> Relato surrealista sobre Gregorio Samsa, quien una mañana despierta transformado en un insecto gigante, explorando temas de alienación y absurdidad de la existencia.</p>
+                <img src="imagenes/metamorfosis.png" alt="Portada de Metamorfosis" width="150">
+            </article>
+            
+            <article>
+                <h3>El Aliento de los Dioses</h3>
+                <p><strong>Autor:</strong> Brandon Sanderson</p>
+                <p><strong>Resumen:</strong> Historia ambientada en el mundo de Nalthis, donde las personas pueden devolver objetos inanimados a la vida mediante el uso de BioChroma, una energía mágica basada en colores.</p>
+                <img src="imagenes/aliento.jpeg" alt="Portada de El Aliento de los Dioses" width="150">
+            </article>
+            
+            <article>
+                <h3>El hombre invisible</h3>
+                <p><strong>Autor:</strong> H.G. Wells</p>
+                <p><strong>Resumen:</strong> Ciencia ficción sobre un científico que descubre cómo volverse invisible pero no puede revertir el proceso, llevándolo a la locura y el conflicto con la sociedad.</p>
+                <img src="imagenes/hombre.jpg" alt="Portada de El hombre invisible" width="150">
+            </article>
+        </section>
         
-        <dt><b>Paciente</b></dt>
-        <dd>Soy alguien que tolera con clama y serenidad, sin alterarme.</dd>
+        <!-- Sección de películas favoritas -->
+        <section id="peliculas">
+            <h2>Mis películas favoritas</h2>
         
-        <dt><b>Ingenioso</b></dt>
-        <dd>Dumuestró disposición a aceptar una gama de posibilidades, oportunidades, pensamientos, puntos de vista, sugerencias y experiencias fuera de tu repertorio habitual.</dd>
+            <article>
+                <h3>El resplandor</h3>
+                <p><strong>Director:</strong> Stanley Kubrick</p>
+                <p><strong>Protagonistas:</strong> Jack Torrance, Wendy Torrance, Danny Torrance</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/S014oGZiSdI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </article>
+            
+            <article>
+                <h3>The Truman Show</h3>
+                <p><strong>Director:</strong> Peter Weir</p>
+                <p><strong>Protagonistas:</strong> Trauman Burbank, Christof, Marlon</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dlnmQbPGuls" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </article>
+            
+            <article>
+                <h3>Oppenheimer</h3>
+                <p><strong>Director:</strong> Christopher Nolan</p>
+                <p><strong>Protagonistas:</strong> Cillian Murphy, Emily Blunt, Matt Damon</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/F3OxA9Cz17A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </article>
+            <article>
+                <h3>La Forma del agua</h3>
+                <p><strong>Director:</strong> Guillermo del toro</p>
+                <p><strong>Protagonistas:</strong> Elisa Esposito, Zelda Fuller, Giles</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/XFYWazblaUA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </article>
+
+            <article>
+                <h3>La noche de los muertos vivientes</h3>
+                <p><strong>Director:</strong>George A. Romero</p>
+                <p><strong>Protagonistas:</strong> Ben, Barbara, Judy</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/BHXb6t7tV9w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </article>
+            <article>
+                <h3>El silencio de los inocentes</h3>
+                <p><strong>Director:</strong>Jonathan Demme</p>
+                <p><strong>Protagonistas:</strong> Hannibal, Clarice Starling, Jame Gumb</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/6iB21hsprAQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </article>
+            <article>
+                <h3>Sexto sentido</h3>
+                <p><strong>Director:</strong>M. Night Shyamalan</p>
+                <p><strong>Protagonistas:</strong> Cole Sear, Dr. Malcom Crowe, Lynn Sear</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3-ZP95NF_Wk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </article>
+            <article>
+                <h3> Fight club</h3>
+                <p><strong>Director:</strong>David Fincher</p>
+                <p><strong>Protagonistas:</strong> Tyler Durden, Marla Singer, Ricky</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qtRKdVHc-cE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </article>
+
+            <article>
+                <h3>Alien</h3>
+                <p><strong>Director:</strong>Ridley Scott</p>
+                <p><strong>Protagonistas:</strong> Dallas, Lambert, Ellen Ripley</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jQ5lPt9edzQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </article>
+
+            <article>
+                <h3>Déjame entrar</h3>
+                <p><strong>Director:</strong>Tomas Alfredson</p>
+                <p><strong>Protagonistas:</strong> Abby, Owen Kenny</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VjQ8g6tB0Os" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </article>
+            
+        </section>
         
-        <dt><b>Perspicaz</b></dt>
-        <dd>Prestó mucha atención a mis entornos, comportamientos de otras personas y soy capaz de discernir situaciones al estar ahí.</dd>
-    </dl>
+        <!-- Sección de canciones favoritas -->
+        <section id="canciones">
+            <h2>Mis canciones favoritas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre de la canción</th>
+                        <th>Género</th>
+                        <th>Cantante/Grupo</th>
+                        <th>Álbum</th>
+                        <th>Año</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Piano Man</td>
+                        <td>Pop</td>
+                        <td>Billy Joel</td>
+                        <td>Piano man</td>
+                        <td>1973</td>
+                    </tr>
+                    <tr>
+                        <td>Strangers in the Night</td>
+                        <td>Jazz Vocal</td>
+                        <td>Frank Sinatra</td>
+                        <td>Strangers in the Night</td>
+                        <td>1966</td>
+                    </tr>
+                    <tr>
+                        <td>Good Old-Fashioned Lover Boy</td>
+                        <td>Glam Rock</td>
+                        <td>Queen</td>
+                        <td>A Day at the Races</td>
+                        <td>1976</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <!-- Audio de canción favorita -->
+            <h3>Mi canción favorita</h3>
+            <audio controls>
+                <source src="audios/The Police - Every Little Thing She Does Is Magic (Official Music Video).mp3" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+            
+            <!-- Video de artista favorito -->
+            <h3>Video de mi artista favorito</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ISz2wKgTUTM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <!-- Sección de Multimedia -->        
+        <section id="Multimedia">
+            <h2>Sección Multimedia</h2>
+            <video controls width="400">
+                <source src="videos/video1.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </section>
+    </main>
     
-    <!-- Lista anidada de mis peliculas favoritas --> 
-    <h2>Películas favoritas</h2>
-    
-    <h3>Terror</h3>
-    <ul>
-        <li>El resplandor</li>
-        <li>La noche de los muertos vivientes</li>
-        <li>El silencio de los inocentes</li>
-        <li>Alien</li>
-        <li>Déjame entrar</li>
-    </ul>
-    
-    <h3>Ciencia Ficción/Comedia</h3>
-    <ul>
-        <li>The truman show</li>
-        <li>Fight club</li>
-        <li>Sexto sentido</li>
-        <li>Oppenheimer</li>
-        <li>La forma del agua</li>
-    </ul>
-    
-    <!-- Tabla de mis canciones favoritas -->
-    <h2>Mis canciones favoritas</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Nombre de la canción</th>
-                <th>Género</th>
-                <th>Cantante/Grupo</th>
-                <th>Álbum</th>
-                <th>Año</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Piano Man</td>
-                <td>Pop</td>
-                <td>Billy Joel</td>
-                <td>Piano man</td>
-                <td>1973</td>
-            </tr>
-            <tr>
-                <td>Strangers in the Night</td>
-                <td>Jazz Vocal</td>
-                <td>Frank Sinatra</td>
-                <td>Strangers in the Night</td>
-                <td>1966</td>
-            </tr>
-            <tr>
-                <td>Good Old-Fashioned Lover Boy</td>
-                <td>Glam Rock</td>
-                <td>Queen</td>
-                <td>A Day at the Races</td>
-                <td>1976</td>
-            </tr>
-        </tbody>
-    </table>
-    
-    <!-- Video corto personal -->
-    <h2>Video personal</h2>
-        <video controls width="400">
-            <source src="videos/video1.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de video.
-        </video>
-    <!-- Audio de mi canción favorita -->
-    <h2>Mi canción favorita</h2>
-        <audio controls>
-            <source src="audios/The Police - Every Little Thing She Does Is Magic (Official Music Video).mp3" type="audio/mpeg">
-            Tu navegador no soporta el elemento de audio.
-        </audio>
-    <!--Video embebido de mi artista favorito -->
-    <h2>Video de mi artista favorito</h2>
-    
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ISz2wKgTUTM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-     
+    <!-- Pie de página -->
+    <footer>
+        <p>Copyright &copy; 2025  Edwin Hou, Miguel Arosemena, - Ingeniería Web</p>
+    </footer>
 </body>
 </html>
